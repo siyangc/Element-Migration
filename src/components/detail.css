@@ -1,0 +1,48 @@
+#color_wrapper{
+    background-color: #e8e8e8;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+#detail {
+    width: 90%;
+    max-width: 90%;
+    margin: 20px auto;
+    margin-bottom: 0;
+
+    float: none;    
+}
+
+#detail h2 {
+    font-size: 25px;
+    line-height: 1.1em;
+    margin-bottom: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#detail p{
+    margin: 0.85em 0;
+    font-size: 13px;
+}
+
+#detail ul {
+    margin-left: 7px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+#detail li{
+    margin-left: 1em;
+    padding: 3px 0;
+    font-size: 13px
+}
+
+@media only screen and (min-width:768px){
+    #detail {
+        max-width: 1030px;
+    }
+
+}
