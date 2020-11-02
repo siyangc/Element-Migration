@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #14578d url(//zookini.com.au/amrc3/wp-content/themes/enfold/images/background-images/ios-linen-light.png) top center repeat scroll !important;
 }
 
 code {

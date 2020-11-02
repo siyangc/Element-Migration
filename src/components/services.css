@@ -1,12 +1,9 @@
 #services {
-    width: 85%;
-    max-width: 85%;
+    width: 100%;
     margin: 0 auto;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 50px 5%;
     float: none;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    background-color: #fff;
 }
 
 #services .title{
@@ -52,7 +49,7 @@
 #services h3{
     font-size: 20px;
     line-height: 1.1em;
-    margin-bottom: 8px;;
+    margin-bottom: 18px;;
     font-weight: 600;
     text-decoration: none;
     color: #222222;
@@ -74,6 +71,6 @@
     }
 
     #services .part li{
-        width: 40%;
+        width: 100%;
     }
 }

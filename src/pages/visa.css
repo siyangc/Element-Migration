@@ -1,0 +1,12 @@
+#visa {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 5%;
+    float: none;
+    background-color: #fff;
+
+}
+
+#visa p {
+    white-space: pre-line;
+}

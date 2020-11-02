@@ -1,5 +1,6 @@
 import React from 'react'
 import './detail.css'
+import { FormattedMessage } from 'react-intl';
 export default function detail() {
     return (
         
@@ -7,41 +8,38 @@ export default function detail() {
             <div id="color_wrapper">
             <div>
                 <h2>
-                    WHY CHOOSE ELEMENT
+                    <FormattedMessage id="part3.title" />
                 </h2>
             </div>
             <div>
                 <p>
-                Apart from out high success rate which is unparalled in the industry, 
-                we provide our clients with the high level of service, including the following:
+                <FormattedMessage id="part3.content1" />
                 </p>
                 <ul>
                     <li>
-                    Specialised in Employer Nomination Migration and Business Migration
+                    <FormattedMessage id="part3.content2" />
                     </li>
                     <li>
-                    Sound relationship with Australian state governments
+                    <FormattedMessage id="part3.content3" />
                     </li>
                     <li>
-                    Ability to obtain state government sponsorship within short period
+                    <FormattedMessage id="part3.content4" />
                     </li>
                     <li>
-                    Ability to provide business and management consulting services to Australian businesses
+                    <FormattedMessage id="part3.content5" />
                     </li>
                     <li>
-                    Professional business background with employer resources from different specialties
+                    <FormattedMessage id="part3.content6" />
                     </li>
                     <li>
-                    Experienced in finding employment opportunities for overseas nurses
+                    <FormattedMessage id="part3.content7" />
                     </li>
                     <li>
-                    Complete financial and legal support
+                    <FormattedMessage id="part3.content8" />
                     </li>
                 </ul>
                 <p>
-                At Element, we believe our service doesn’t stop at just obtaining the visa. 
-                We pride ourselves on offering a complete solution for our clients through ongoing support, 
-                helping you become integrated in Melbourne’s social community.
+                <FormattedMessage id="part3.content9" />
                 </p>
             </div>
             </div>

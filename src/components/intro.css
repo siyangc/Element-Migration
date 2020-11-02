@@ -1,9 +1,9 @@
 #intro {
-    width: 85%;
-    max-width: 85%;
+    width: 100%;
     margin: 0 auto;
-    padding: 50px 0px;
+    padding: 50px 5%;
     float: none;
+    background-color: #fff;
 }
 
 #intro1 {
