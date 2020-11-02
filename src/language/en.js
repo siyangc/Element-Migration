@@ -133,27 +133,27 @@ export const enUS = {
         title:"188A Business Innovation Stream",
         content1:" Please contact Element to discuss your suitability in more detail.",
         content2:
-            `The provisional Business Innovation and Investment visa is part of the Australian Business Innovation and Investment Program. It is also called Australian Investment Migration, Business Migration, and original subclass 163, 164 migration visas. This type of visa focuses on company turnover and is flexible with investment options.`
+            "The provisional Business Innovation and Investment visa is part of the Australian Business Innovation and Investment Program. It is also called Australian Investment Migration, Business Migration, and original subclass 163, 164 migration visas. This type of visa focuses on company turnover and is flexible with investment options."
     },
     B188:{
         title:"188B Investor Stream",
         content1:"Please contact Element to discuss your suitability in more detail.",
-        content2:`This visa is for people who want to make a designated investment such as shares, funds or foreign currency in an Australian state or territory. This visa requires the visa applicant to have outstanding investment background and experience. The applicant should be sponsored by an Australian state or territory government and invest in state government bonds for four years before being granted a permanent visa. The applicant is required to reside in Australia for two out of four years before submitting the permanent visa application.`
+        content2:"This visa is for people who want to make a designated investment such as shares, funds or foreign currency in an Australian state or territory. This visa requires the visa applicant to have outstanding investment background and experience. The applicant should be sponsored by an Australian state or territory government and invest in state government bonds for four years before being granted a permanent visa. The applicant is required to reside in Australia for two out of four years before submitting the permanent visa application."
     },
     C188:{
         title:"188C AUD$5 Million Significant Investor Visa",
-        content1:`From 24th November 2012, applicants are able to apply for subclass 188 visa under the Significant Investor Stream – AUD$5 million investments. This visa is part of the Australian Business Innovation and Investment Program which appeals successful business people and investors. This visa provides a competitive migration option to high income earners and pushes the development of Australian economy. `,
-        content2:` The applicant is required to invest at least AUD$5 million into complying investments in Australia for four years.`
+        content1:"From 24th November 2012, applicants are able to apply for subclass 188 visa under the Significant Investor Stream – AUD$5 million investments. This visa is part of the Australian Business Innovation and Investment Program which appeals successful business people and investors. This visa provides a competitive migration option to high income earners and pushes the development of Australian economy.",
+        content2:"The applicant is required to invest at least AUD$5 million into complying investments in Australia for four years."
     },
     132:{
         title:"132 Business Talent Visa",
         content1:"Please contact Element to discuss your suitability in more detail.",
-        content2:`The Business Talent visa is part of the Australian Business Innovation and Investment Program, which seeks to expand the country’s economy. This visa is designed for high calibre business people who are owners or part owners of an overseas business and have a genuine and realistic commitment to participate in the management of a new or existing business in Australia. This is a permanent residency visa.`
+        content2:"The Business Talent visa is part of the Australian Business Innovation and Investment Program, which seeks to expand the country’s economy. This visa is designed for high calibre business people who are owners or part owners of an overseas business and have a genuine and realistic commitment to participate in the management of a new or existing business in Australia. This is a permanent residency visa."
     },
     186:{
         title:"186 Employer Nomination Scheme",
         content1:"This visa is part of the Employer Sponsored Skilled Migration program. It is also known as Employer Sponsored Migration or Employer Nomination Scheme (ENS). Australian government allows onshore Australian companies and/or organisations to employ skilled workers from overseas and sponsor them to live and work in Australia permanently. This is a permanent residency visa.",
-        content2:`186 Visa Ranges: Main Australian cities, including Sydney, Melbourne, Brisbane, Gold Coast, New Castle and Wollongong. `
+        content2:"186 Visa Ranges: Main Australian cities, including Sydney, Melbourne, Brisbane, Gold Coast, New Castle and Wollongong."
     },
     482:{
         title:"482 Temporary Skill Shortage Visa",
