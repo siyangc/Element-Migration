@@ -14,7 +14,7 @@ export default class gallery extends Component {
         return (
             <div id='gallery'>
                 
-                <Carousel>
+                <Carousel interval="2000">
                     {this.state.picture_index.map((index)=>{
                         return  <Carousel.Item>
                                 <img

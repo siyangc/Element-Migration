@@ -5,7 +5,7 @@ export default class carousel extends Component {
     render() {
         return (
             <div id="carousel">
-                <Carousel>
+                <Carousel interval="5000">
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
