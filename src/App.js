@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import { IntlProvider} from 'react-intl';
 import flatten from 'flat';
 import {zhCN} from '../src/language/zh';
@@ -11,6 +11,7 @@ import Visa from './pages/visa.js'
 import {Route, BrowserRouter as Router} from "react-router-dom";
 import ScrollToTop from './scrollToTop';
 import SpeNav from './components/speNav';
+
 function App() {
 
   const [lang, setLang] = useState('en')
@@ -28,6 +29,7 @@ function App() {
     }      
 
   }
+  
   return (
     <IntlProvider messages={flatten(msg)} locale={lang}>
       <Router>
