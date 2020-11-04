@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { FormattedMessage } from 'react-intl';
 import {Navbar, Nav} from 'react-bootstrap';
-
 export default class nav extends Component {
 
     

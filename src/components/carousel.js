@@ -2,10 +2,13 @@ import React, { Component } from 'react'
 import {Carousel} from 'react-bootstrap';
 import './carousel.css'
 export default class carousel extends Component {
+    state = {
+        interval: 5000
+    }
     render() {
         return (
             <div id="carousel">
-                <Carousel interval="5000">
+                <Carousel interval={this.state.interval}>
                     <Carousel.Item>
                         <img
                         className="d-block w-100"

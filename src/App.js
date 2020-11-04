@@ -9,6 +9,8 @@ import Contact from './components/contact.js';
 import Home from './pages/home.js'
 import Visa from './pages/visa.js'
 import {Route, BrowserRouter as Router} from "react-router-dom";
+import ScrollToTop from './scrollToTop';
+import SpeNav from './components/speNav';
 function App() {
 
   const [lang, setLang] = useState('en')
@@ -29,8 +31,11 @@ function App() {
   return (
     <IntlProvider messages={flatten(msg)} locale={lang}>
       <Router>
+        <ScrollToTop />
         <div className="App">
-          <Nav switchLang={switchLang}/>          
+          <Route path='/' exact render={(props)=><Nav {...props} switchLang={switchLang}/>} /> 
+          <Route path='/visa' exact render={(props)=><SpeNav {...props} switchLang={switchLang}/>} /> 
+        
           <Carousel />           
           <Route path='/' exact component={Home} />   
           <Route path='/visa' component={Visa} /> 
