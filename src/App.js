@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import { IntlProvider} from 'react-intl';
 import flatten from 'flat';
 import {zhCN} from '../src/language/zh';
